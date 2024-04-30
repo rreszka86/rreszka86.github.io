@@ -7,70 +7,88 @@ html{
 }
 
 body{
-    margin: 100px 0;
+    margin: 70px 0;
 }
 
 .resume{
-    position: relative;
-    margin: 0 auto;
-    width: 900px;
     display: flex;
+    width: 900px;
+    margin: 0 auto;
 }
 
-.resume-title{
-    font-size: 20px;
+.title{
+    margin: 0;
     text-transform: uppercase;
+    font-size: 20px;
     font-weight: 800;
 }
 
-.resume-left{
+.left{
     width: 50%;
-    background-color: transparent;
-    background-image: linear-gradient(90deg, #34344A, #AA78A6 120%);
     padding: 20px;
+    background-color: transparent;
+    background-image: linear-gradient(90deg, #34344A, #810578 120%);
     color: #E0E0E0;
 }
 
-.resume-left li{
+.left ul{
+    padding-left: 0px;
+    margin-top: 8px;
+}
+
+.left li{
     list-style: none;
 }
 
-.resume-right{
+.right{
+    position: relative;
     width: 50%;
-    background-color: #E0E0E0;
     padding: 20px;
+    background-color: #E0E0E0;
     color:#34344A;
 }
 
-.resume-header{
+.header{
     text-align: center;
 }
 
-.resume-header h2{
-    font-weight: 700;
+.header i{
+    transform: translateY(1px);
+}
+
+.header h2{
     margin-bottom: 0;
+    font-weight: 700;
 }
 
-.resume-header h4{
+.header h4{
     margin-top: 0;
+    margin-bottom: 12px;
     padding-bottom: 10px;
-    font-weight: 500;
     border-bottom: 2px solid ;
+    font-weight: 500;
 }
 
-.resume-header p{
+.header p{
     margin: 8px 0;
 }
 
-.resume-header img{
+.header img{
     width: 200px;
     height: 200px;
     object-fit: cover;
     border: 3px solid #E0E0E0;
 }
 
-.resume-aboutme p{
+.aboutme p{
+    margin-top: 8px;;
     text-align: justify;
+}
+
+.technologies i{
+    padding: 5px 25px 0 10px;
+    transform: translateY(3px);
+    font-size: 25px;
 }
 
 i{
@@ -78,22 +96,95 @@ i{
     padding: 0 10px;
 }
 
-.resume-portfolio{
+.portfolio{
     text-align: center;
 }
 
-.resume-portfolio a{
+.portfolio a{
     display: inline-block;
+    padding-bottom: 10px;
     text-decoration: none;
     color: #34344A;
 }
 
-.resume-portfolio a:hover{
+.portfolio a:hover{
     color: #503D42;
 }
 
-.resume-gdpr{
-    padding-top: 50px;
+.qualifications span{
+    font-weight: 750;
+}
+
+.gdpr{
+    position: absolute;
+    bottom: 0;
+    padding-right: 20px;
     text-align: justify;
+    font-size: 14px;
     color: #34344aa6;
+}
+
+.experience p{
+    margin: 0;
+}
+
+.experience ul{
+    list-style: none;
+}
+
+.experience li{
+    position: relative;
+    margin: 0;
+    padding-top: 0;
+    padding-bottom: 1em;
+    padding-left: 20px;
+}
+
+.experience>ul>li:before{
+    content: '';
+    position: absolute;
+    width: 2px;
+    top: 4px;
+    left: 5px;
+    height: 100%;
+    background-color: #810578;
+}
+
+.experience>ul>li:after {
+    content: '';
+    position: absolute;
+    left: -1.5px;
+    top: 4px;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    border: 1px solid #810578;
+    background-color: #E0E0E0;
+}
+
+.experience>ul>li>ul>li{
+    padding: 5px 0 0 0;
+    list-style-position: outside;
+}
+
+.experience>ul>li>ul>li>i{
+    padding: 0 5px 0 0;
+}
+
+.section-pad{
+    padding-bottom: 20px;
+}
+
+.main-item{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.sub-item{
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.desc-item{
+    font-weight: 500;
 }
