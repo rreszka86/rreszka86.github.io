@@ -1,0 +1,99 @@
+html{
+    background-color: #333;
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    margin: 100px 0;
+}
+
+.resume{
+    position: relative;
+    margin: 0 auto;
+    width: 900px;
+    display: flex;
+}
+
+.resume-title{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.resume-left{
+    width: 50%;
+    background-color: transparent;
+    background-image: linear-gradient(90deg, #34344A, #AA78A6 120%);
+    padding: 20px;
+    color: #E0E0E0;
+}
+
+.resume-left li{
+    list-style: none;
+}
+
+.resume-right{
+    width: 50%;
+    background-color: #E0E0E0;
+    padding: 20px;
+    color:#34344A;
+}
+
+.resume-header{
+    text-align: center;
+}
+
+.resume-header h2{
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.resume-header h4{
+    margin-top: 0;
+    padding-bottom: 10px;
+    font-weight: 500;
+    border-bottom: 2px solid ;
+}
+
+.resume-header p{
+    margin: 8px 0;
+}
+
+.resume-header img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 3px solid #E0E0E0;
+}
+
+.resume-aboutme p{
+    text-align: justify;
+}
+
+i{
+    width: 10px;
+    padding: 0 10px;
+}
+
+.resume-portfolio{
+    text-align: center;
+}
+
+.resume-portfolio a{
+    display: inline-block;
+    text-decoration: none;
+    color: #34344A;
+}
+
+.resume-portfolio a:hover{
+    color: #503D42;
+}
+
+.resume-gdpr{
+    padding-top: 50px;
+    text-align: justify;
+    color: #34344aa6;
+}
